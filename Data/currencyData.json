@@ -2,721 +2,847 @@
     "AED": {
         "name": "United Arab Emirates dirham",
         "value": 3.67,
-        "symbol": "د.إ"
+        "symbol": "د.إ",
+        "flagEmoji": "🇦🇪"
     },
     "AFN": {
         "name": "Afghan afghani",
         "value": 87.33,
-        "symbol": "؋"
+        "symbol": "؋",
+        "flagEmoji": "🇦🇫"
     },
     "ALL": {
         "name": "Albanian lek",
         "value": 117.29,
-        "symbol": "L"
+        "symbol": "L",
+        "flagEmoji": "🇦🇱"
     },
     "AMD": {
         "name": "Armenian dram",
         "value": 400.00,
-        "symbol": "֏"
+        "symbol": "֏",
+        "flagEmoji": "🇦🇲"
     },
     "AOA": {
         "name": "Angolan kwanza",
         "value": 165.00,
-        "symbol": "Kz"
+        "symbol": "Kz",
+        "flagEmoji": "🇦🇴"
     },
     "ARS": {
         "name": "Argentine peso",
         "value": 19.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇦🇷"
     },
     "AUD": {
         "name": "Australian dollar",
         "value": 1.29,
-        "symbol": "$"
-    },
-    "AUD": {
-        "name": "Australian dollar",
-        "value": 1.29,
-        "symbol": "$"
-    },
-    "AUD": {
-        "name": "Australian dollar",
-        "value": 1.29,
-        "symbol": "$"
-    },
-    "AUD": {
-        "name": "Australian dollar",
-        "value": 1.29,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇦🇺"
     },
     "AZN": {
         "name": "Azerbaijani manat",
         "value": 1.70,
-        "symbol": "₼"
+        "symbol": "₼",
+        "flagEmoji": "🇦🇿"
     },
     "BAM": {
         "name": "Bosnia and Herzegovina convertible mark",
         "value": 1.70,
-        "symbol": "KM"
+        "symbol": "KM",
+        "flagEmoji": "🇧🇦"
     },
     "BBD": {
         "name": "Barbadian dollar",
         "value": 2.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇧🇧"
     },
     "BDT": {
         "name": "Bangladeshi taka",
         "value": 84.00,
-        "symbol": "৳"
+        "symbol": "৳",
+        "flagEmoji": "🇧🇩"
     },
     "BGN": {
         "name": "Bulgarian lev",
         "value": 1.70,
-        "symbol": "лв"
+        "symbol": "лв",
+        "flagEmoji": "🇧🇬"
     },
     "BHD": {
         "name": "Bahraini dinar",
         "value": 0.38,
-        "symbol": ".د.ب"
+        "symbol": ".د.ب",
+        "flagEmoji": "🇧🇭"
     },
     "BIF": {
         "name": "Burundian franc",
         "value": 1780.00,
-        "symbol": "Fr"
+        "symbol": "Fr",
+        "flagEmoji": "🇧🇮"
     },
     "BND": {
         "name": "Brunei dollar",
         "value": 1.37,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇧🇳"
     },
     "BOB": {
         "name": "Bolivian boliviano",
         "value": 6.90,
-        "symbol": "$b"
+        "symbol": "$b",
+        "flagEmoji": "🇧🇴"
     },
     "BRL": {
         "name": "Brazilian real",
         "value": 5.25,
-        "symbol": "R$"
+        "symbol": "R$",
+        "flagEmoji": "🇧🇷"
     },
     "BSD": {
         "name": "Bahamian dollar",
         "value": 1.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇧🇸"
     },
     "BTN": {
         "name": "Bhutanese ngultrum",
         "value": 69.00,
-        "symbol": "Nu."
+        "symbol": "Nu.",
+        "flagEmoji": "🇧🇹"
     },
     "BWP": {
         "name": "Botswana pula",
         "value": 10.00,
-        "symbol": "P"
+        "symbol": "P",
+        "flagEmoji": "🇧🇼"
     },
     "BYN": {
         "name": "Belarusian ruble",
         "value": 2.00,
-        "symbol": "Br"
+        "symbol": "Br",
+        "flagEmoji": "🇧🇾"
     },
     "BZD": {
         "name": "Belize dollar",
         "value": 2.00,
-        "symbol": "BZ$"
+        "symbol": "BZ$",
+        "flagEmoji": "🇧🇿"
     },
     "CAD": {
         "name": "Canadian dollar",
         "value": 1.30,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇨🇦"
     },
     "CDF": {
         "name": "Congolese franc",
         "value": 1650.00,
-        "symbol": "Fr"
+        "symbol": "Fr",
+        "flagEmoji": "🇨🇩"
     },
     "CHF": {
         "name": "Swiss franc",
         "value": 0.96,
-        "symbol": "Fr"
+        "symbol": "Fr",
+        "flagEmoji": "🇨🇭"
     },
     "CLP": {
         "name": "Chilean peso",
         "value": 700.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇨🇱"
     },
     "CNY": {
         "name": "Chinese yuan",
         "value": 6.98,
-        "symbol": "¥"
+        "symbol": "¥",
+        "flagEmoji": "🇨🇳"
     },
     "COP": {
         "name": "Colombian peso",
         "value": 3000.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇨🇴"
     },
     "CRC": {
         "name": "Costa Rican colón",
         "value": 570.00,
-        "symbol": "₡"
+        "symbol": "₡",
+        "flagEmoji": "🇨🇷"
     },
     "CUP": {
         "name": "Cuban peso",
         "value": 25.00,
-        "symbol": "₱"
+        "symbol": "₱",
+        "flagEmoji": "🇨🇺"
     },
     "CVE": {
         "name": "Cape Verdean escudo",
         "value": 90.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇨🇻"
     },
     "CZK": {
         "name": "Czech koruna",
         "value": 21.00,
-        "symbol": "Kč"
+        "symbol": "Kč",
+        "flagEmoji": "🇨🇿"
     },
     "DJF": {
         "name": "Djiboutian franc",
         "value": 178.00,
-        "symbol": "Fr"
+        "symbol": "Fr",
+        "flagEmoji": "🇩🇯"
     },
     "DKK": {
         "name": "Danish krone",
         "value": 6.00,
-        "symbol": "kr"
+        "symbol": "kr",
+        "flagEmoji": "🇩🇰"
     },
     "DOP": {
         "name": "Dominican peso",
         "value": 47.00,
-        "symbol": "RD$"
+        "symbol": "RD$",
+        "flagEmoji": "🇩🇴"
     },
     "DZD": {
         "name": "Algerian dinar",
         "value": 110.00,
-        "symbol": "د.ج"
+        "symbol": "د.ج",
+        "flagEmoji": "🇩🇿"
     },
     "EGP": {
         "name": "Egyptian pound",
         "value": 15.00,
-        "symbol": "£"
+        "symbol": "£",
+        "flagEmoji": "🇪🇬"
     },
     "ERN": {
         "name": "Eritrean nakfa",
         "value": 15.00,
-        "symbol": "Nfk"
+        "symbol": "Nfk",
+        "flagEmoji": "🇪🇷"
     },
     "ETB": {
         "name": "Ethiopian birr",
         "value": 26.00,
-        "symbol": "Br"
+        "symbol": "Br",
+        "flagEmoji": "🇪🇹"
     },
     "EUR": {
         "name": "Euro",
         "value": 0.85,
-        "symbol": "€"
+        "symbol": "€",
+        "flagEmoji": "🇪🇺"
     },
     "FJD": {
         "name": "Fijian dollar",
         "value": 2.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇫🇯"
     },
     "GBP": {
         "name": "British pound",
         "value": 0.77,
-        "symbol": "£"
+        "symbol": "£",
+        "flagEmoji": "🇬🇧"
     },
     "GEL": {
         "name": "Georgian lari",
         "value": 2.50,
-        "symbol": "₾"
+        "symbol": "₾",
+        "flagEmoji": "🇬🇪"
     },
     "GHS": {
         "name": "Ghanaian cedi",
         "value": 5.00,
-        "symbol": "₵"
+        "symbol": "₵",
+        "flagEmoji": "🇬🇭"
     },
     "GMD": {
         "name": "Gambian dalasi",
         "value": 50.00,
-        "symbol": "D"
+        "symbol": "D",
+        "flagEmoji": "🇬🇲"
     },
     "GNF": {
         "name": "Guinean franc",
         "value": 9000.00,
-        "symbol": "Fr"
+        "symbol": "Fr",
+        "flagEmoji": "🇬🇳"
     },
     "GTQ": {
         "name": "Guatemalan quetzal",
         "value": 7.00,
-        "symbol": "Q"
+        "symbol": "Q",
+        "flagEmoji": "🇬🇹"
     },
     "GYD": {
         "name": "Guyanese dollar",
         "value": 208.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇬🇾"
     },
     "HNL": {
         "name": "Honduran lempira",
         "value": 24.00,
-        "symbol": "L"
+        "symbol": "L",
+        "flagEmoji": "🇭🇳"
     },
     "HRK": {
         "name": "Croatian kuna",
         "value": 6.00,
-        "symbol": "kn"
+        "symbol": "kn",
+        "flagEmoji": "🇭🇷"
     },
     "HTG": {
         "name": "Haitian gourde",
         "value": 80.00,
-        "symbol": "G"
+        "symbol": "G",
+        "flagEmoji": "🇭🇹"
     },
     "HUF": {
         "name": "Hungarian forint",
         "value": 290.00,
-        "symbol": "Ft"
+        "symbol": "Ft",
+        "flagEmoji": "🇭🇺"
     },
     "IDR": {
         "name": "Indonesian rupiah",
         "value": 14000.00,
-        "symbol": "Rp"
+        "symbol": "Rp",
+        "flagEmoji": "🇮🇩"
     },
     "ILS": {
         "name": "Israeli new shekel",
         "value": 3.50,
-        "symbol": "₪"
+        "symbol": "₪",
+        "flagEmoji": "🇮🇱"
     },
     "INR": {
         "name": "Indian rupee",
         "value": 70.00,
-        "symbol": "₹"
+        "symbol": "₹",
+        "flagEmoji": "🇮🇳"
     },
     "IQD": {
         "name": "Iraqi dinar",
         "value": 1200.00,
-        "symbol": "ع.د"
+        "symbol": "ع.د",
+        "flagEmoji": "🇮🇶"
     },
     "IRR": {
         "name": "Iranian rial",
         "value": 42000.00,
-        "symbol": "﷼"
+        "symbol": "﷼",
+        "flagEmoji": "🇮🇷"
     },
     "ISK": {
         "name": "Icelandic króna",
         "value": 120.00,
-        "symbol": "kr"
+        "symbol": "kr",
+        "flagEmoji": "🇮🇸"
     },
     "JMD": {
         "name": "Jamaican dollar",
         "value": 130.00,
-        "symbol": "J$"
+        "symbol": "J$",
+        "flagEmoji": "🇯🇲"
     },
     "JOD": {
         "name": "Jordanian dinar",
         "value": 0.70,
-        "symbol": "د.ا"
+        "symbol": "د.ا",
+        "flagEmoji": "🇯🇴"
     },
     "JPY": {
         "name": "Japanese yen",
         "value": 110.00,
-        "symbol": "¥"
+        "symbol": "¥",
+        "flagEmoji": "🇯🇵"
     },
     "KES": {
         "name": "Kenyan shilling",
         "value": 100.00,
-        "symbol": "Sh"
+        "symbol": "Sh",
+        "flagEmoji": "🇰🇪"
     },
     "KGS": {
         "name": "Kyrgyzstani som",
         "value": 70.00,
-        "symbol": "лв"
+        "symbol": "лв",
+        "flagEmoji": "🇰🇬"
     },
     "KHR": {
         "name": "Cambodian riel",
         "value": 4000.00,
-        "symbol": "៛"
+        "symbol": "៛",
+        "flagEmoji": "🇰🇭"
     },
     "KMF": {
         "name": "Comorian franc",
         "value": 460.00,
-        "symbol": "Fr"
+        "symbol": "Fr",
+        "flagEmoji": "🇰🇲"
     },
     "KPW": {
         "name": "North Korean won",
         "value": 900.00,
-        "symbol": "₩"
+        "symbol": "₩",
+        "flagEmoji": "🇰🇵"
     },
     "KWD": {
         "name": "Kuwaiti dinar",
         "value": 0.30,
-        "symbol": "د.ك"
+        "symbol": "د.ك",
+        "flagEmoji": "🇰🇼"
     },
     "KZT": {
         "name": "Kazakhstani tenge",
         "value": 350.00,
-        "symbol": "лв"
+        "symbol": "лв",
+        "flagEmoji": "🇰🇿"
     },
     "LAK": {
         "name": "Lao kip",
         "value": 9000.00,
-        "symbol": "₭"
+        "symbol": "₭",
+        "flagEmoji": "🇱🇦"
     },
     "LBP": {
         "name": "Lebanese pound",
         "value": 1500.00,
-        "symbol": "ل.ل"
+        "symbol": "ل.ل",
+        "flagEmoji": "🇱🇧"
     },
     "LKR": {
         "name": "Sri Lankan rupee",
         "value": 160.00,
-        "symbol": "₨"
+        "symbol": "₨",
+        "flagEmoji": "🇱🇰"
     },
     "LRD": {
         "name": "Liberian dollar",
         "value": 170.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇱🇷"
     },
     "LSL": {
         "name": "Lesotho loti",
         "value": 15.00,
-        "symbol": "L"
+        "symbol": "L",
+        "flagEmoji": "🇱🇸"
     },
     "LYD": {
         "name": "Libyan dinar",
         "value": 1.30,
-        "symbol": "ل.د"
+        "symbol": "ل.د",
+        "flagEmoji": "🇱🇾"
     },
     "MAD": {
         "name": "Moroccan dirham",
         "value": 9.00,
-        "symbol": "د.م."
+        "symbol": "د.م.",
+        "flagEmoji": "🇲🇦"
     },
     "MDL": {
         "name": "Moldovan leu",
         "value": 17.00,
-        "symbol": "L"
+        "symbol": "L",
+        "flagEmoji": "🇲🇩"
     },
     "MGA": {
         "name": "Malagasy ariary",
         "value": 3500.00,
-        "symbol": "Ar"
+        "symbol": "Ar",
+        "flagEmoji": "🇲🇬"
     },
     "MKD": {
         "name": "Macedonian denar",
         "value": 55.00,
-        "symbol": "ден"
+        "symbol": "ден",
+        "flagEmoji": "🇲🇰"
     },
     "MMK": {
         "name": "Burmese kyat",
         "value": 1300.00,
-        "symbol": "K"
+        "symbol": "K",
+        "flagEmoji": "🇲🇲"
     },
     "MNT": {
         "name": "Mongolian tögrög",
         "value": 2500.00,
-        "symbol": "₮"
+        "symbol": "₮",
+        "flagEmoji": "🇲🇳"
     },
     "MRO": {
         "name": "Mauritanian ouguiya",
         "value": 350.00,
-        "symbol": "UM"
+        "symbol": "UM",
+        "flagEmoji": "🇲🇷"
     },
     "MUR": {
         "name": "Mauritian rupee",
         "value": 35.00,
-        "symbol": "₨"
+        "symbol": "₨",
+        "flagEmoji": "🇲🇺"
     },
     "MVR": {
         "name": "Maldivian rufiyaa",
         "value": 15.00,
-        "symbol": ".ރ"
+        "symbol": ".ރ",
+        "flagEmoji": "🇲🇻"
     },
     "MWK": {
         "name": "Malawian kwacha",
         "value": 80.00,
-        "symbol": "MK"
+        "symbol": "MK",
+        "flagEmoji": "🇲🇼"
     },
     "MXN": {
         "name": "Mexican peso",
         "value": 18.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇲🇽"
     },
     "MYR": {
         "name": "Malaysian ringgit",
         "value": 4.00,
-        "symbol": "RM"
+        "symbol": "RM",
+        "flagEmoji": "🇲🇾"
     },
     "MZN": {
         "name": "Mozambican metical",
         "value": 60.00,
-        "symbol": "MT"
+        "symbol": "MT",
+        "flagEmoji": "🇲🇿"
     },
     "NAD": {
         "name": "Namibian dollar",
         "value": 15.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇳🇦"
     },
     "NGN": {
         "name": "Nigerian naira",
         "value": 400.00,
-        "symbol": "₦"
+        "symbol": "₦",
+        "flagEmoji": "🇳🇬"
     },
     "NIO": {
         "name": "Nicaraguan córdoba",
         "value": 35.00,
-        "symbol": "C$"
+        "symbol": "C$",
+        "flagEmoji": "🇳🇮"
     },
     "NOK": {
         "name": "Norwegian krone",
         "value": 9.00,
-        "symbol": "kr"
+        "symbol": "kr",
+        "flagEmoji": "🇳🇴"
     },
     "NPR": {
         "name": "Nepalese rupee",
         "value": 110.00,
-        "symbol": "₨"
+        "symbol": "₨",
+        "flagEmoji": "🇳🇵"
     },
     "NZD": {
         "name": "New Zealand dollar",
         "value": 1.40,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇳🇿"
     },
     "OMR": {
         "name": "Omani rial",
         "value": 0.40,
-        "symbol": "ر.ع."
+        "symbol": "ر.ع.",
+        "flagEmoji": "🇴🇲"
     },
     "PAB": {
         "name": "Panamanian balboa",
         "value": 1.00,
-        "symbol": "B/."
+        "symbol": "B/.",
+        "flagEmoji": "🇵🇦"
     },
     "PEN": {
         "name": "Peruvian sol",
         "value": 3.00,
-        "symbol": "S/."
+        "symbol": "S/.",
+        "flagEmoji": "🇵🇪"
     },
     "PGK": {
         "name": "Papua New Guinean kina",
         "value": 3.00,
-        "symbol": "K"
+        "symbol": "K",
+        "flagEmoji": "🇵🇬"
     },
     "PHP": {
         "name": "Philippine peso",
         "value": 50.00,
-        "symbol": "₱"
+        "symbol": "₱",
+        "flagEmoji": "🇵🇭"
     },
     "PKR": {
         "name": "Pakistani rupee",
         "value": 110.00,
-        "symbol": "₨"
+        "symbol": "₨",
+        "flagEmoji": "🇵🇰"
     },
     "PLN": {
         "name": "Polish zloty",
         "value": 3.50,
-        "symbol": "zł"
+        "symbol": "zł",
+        "flagEmoji": "🇵🇱"
     },
     "PYG": {
         "name": "Paraguayan guaraní",
         "value": 6000.00,
-        "symbol": "₲"
+        "symbol": "₲",
+        "flagEmoji": "🇵🇾"
     },
     "QAR": {
         "name": "Qatari riyal",
         "value": 1.00,
-        "symbol": "ر.ق"
+        "symbol": "ر.ق",
+        "flagEmoji": "🇶🇦"
     },
     "RON": {
         "name": "Romanian leu",
         "value": 4.00,
-        "symbol": "lei"
+        "symbol": "lei",
+        "flagEmoji": "🇷🇴"
     },
     "RSD": {
         "name": "Serbian dinar",
         "value": 100.00,
-        "symbol": "дин."
+        "symbol": "дин.",
+        "flagEmoji": "🇷🇸"
     },
     "RUB": {
         "name": "Russian ruble",
         "value": 70.00,
-        "symbol": "₽"
+        "symbol": "₽",
+        "flagEmoji": "🇷🇺"
     },
     "RWF": {
         "name": "Rwandan franc",
         "value": 900.00,
-        "symbol": "Fr"
+        "symbol": "Fr",
+        "flagEmoji": "🇷🇼"
     },
     "SAR": {
         "name": "Saudi riyal",
         "value": 3.75,
-        "symbol": "ر.س"
+        "symbol": "ر.س",
+        "flagEmoji": "🇸🇦"
     },
     "SBD": {
         "name": "Solomon Islands dollar",
         "value": 8.00,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇸🇧"
     },
     "SCR": {
         "name": "Seychellois rupee",
         "value": 15.00,
-        "symbol": "₨"
+        "symbol": "₨",
+        "flagEmoji": "🇸🇨"
     },
     "SDG": {
         "name": "Sudanese pound",
         "value": 4.00,
-        "symbol": "ج.س."
+        "symbol": "ج.س.",
+        "flagEmoji": "🇸🇩"
     },
     "SEK": {
         "name": "Swedish krona",
         "value": 8.00,
-        "symbol": "kr"
+        "symbol": "kr",
+        "flagEmoji": "🇸🇪"
     },
     "SGD": {
         "name": "Singapore dollar",
         "value": 1.40,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇸🇬"
     },
     "SLL": {
         "name": "Sierra Leonean leone",
         "value": 9000.00,
-        "symbol": "Le"
+        "symbol": "Le",
+        "flagEmoji": "🇸🇱"
     },
     "SOS": {
         "name": "Somali shilling",
         "value": 600.00,
-        "symbol": "Sh"
+        "symbol": "Sh",
+        "flagEmoji": "🇸🇴"
     },
     "SRD": {
         "name": "Surinamese dollar",
         "value": 3.50,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇸🇷"
     },
     "SSP": {
         "name": "South Sudanese pound",
         "value": 130.00,
-        "symbol": "£"
+        "symbol": "£",
+        "flagEmoji": "🇸🇸"
     },
     "STD": {
         "name": "São Tomé and Príncipe dobra",
         "value": 21000.00,
-        "symbol": "Db"
+        "symbol": "Db",
+        "flagEmoji": "🇸🇹"
     },
     "SYP": {
         "name": "Syrian pound",
         "value": 125.00,
-        "symbol": "£"
+        "symbol": "£",
+        "flagEmoji": "🇸🇾"
     },
     "SZL": {
         "name": "Swazi lilangeni",
         "value": 14.00,
-        "symbol": "L"
+        "symbol": "L",
+        "flagEmoji": "🇸🇿"
     },
     "THB": {
         "name": "Thai baht",
         "value": 40.00,
-        "symbol": "฿"
+        "symbol": "฿",
+        "flagEmoji": "🇹🇭"
     },
     "TJS": {
         "name": "Tajikistani somoni",
         "value": 9.00,
-        "symbol": "ЅМ"
+        "symbol": "ЅМ",
+        "flagEmoji": "🇹🇯"
     },
     "TMT": {
         "name": "Turkmenistan manat",
         "value": 3.50,
-        "symbol": "m"
+        "symbol": "m",
+        "flagEmoji": "🇹🇲"
     },
     "TND": {
         "name": "Tunisian dinar",
         "value": 2.50,
-        "symbol": "د.ت"
+        "symbol": "د.ت",
+        "flagEmoji": "🇹🇳"
     },
     "TOP": {
         "name": "Tongan pa'anga",
         "value": 2.00,
-        "symbol": "T$"
+        "symbol": "T$",
+        "flagEmoji": "🇹🇴"
     },
     "TRY": {
         "name": "Turkish lira",
         "value": 3.75,
-        "symbol": "₺"
+        "symbol": "₺",
+        "flagEmoji": "🇹🇷"
     },
     "TTD": {
         "name": "Trinidad and Tobago dollar",
         "value": 7.00,
-        "symbol": "TT$"
+        "symbol": "TT$",
+        "flagEmoji": "🇹🇹"
     },
     "TWD": {
         "name": "New Taiwan dollar",
         "value": 40.00,
-        "symbol": "NT$"
+        "symbol": "NT$",
+        "flagEmoji": "🇹🇼"
     },
     "TZS": {
         "name": "Tanzanian shilling",
         "value": 2300.00,
-        "symbol": "Sh"
+        "symbol": "Sh",
+        "flagEmoji": "🇹🇿"
     },
     "UAH": {
         "name": "Ukrainian hryvnia",
         "value": 25.00,
-        "symbol": "₴"
+        "symbol": "₴",
+        "flagEmoji": "🇺🇦"
     },
     "UGX": {
         "name": "Ugandan shilling",
         "value": 3500.00,
-        "symbol": "Sh"
+        "symbol": "Sh",
+        "flagEmoji": "🇺🇬"
     },
     "USD": {
         "name": "United States dollar",
         "value": 1,
-        "symbol": "$"
+        "symbol": "$",
+        "flagEmoji": "🇺🇸"
     },
     "UYU": {
         "name": "Uruguayan peso",
         "value": 35.00,
-        "symbol": "$U"
+        "symbol": "$U",
+        "flagEmoji": "🇺🇾"
     },
     "UZS": {
         "name": "Uzbekistani som",
         "value": 9000.00,
-        "symbol": "лв"
+        "symbol": "лв",
+        "flagEmoji": "🇺🇿"
     },
     "VEF": {
         "name": "Venezuelan bolívar",
         "value": 10.00,
-        "symbol": "Bs"
+        "symbol": "Bs",
+        "flagEmoji": "🇻🇪"
     },
     "VND": {
         "name": "Vietnamese dong",
         "value": 23660.00,
-        "symbol": ""
+        "symbol": "",
+        "flagEmoji": "🇻🇳"
     },
     "XAF": {
         "name": "Central African CFA franc",
         "value": 654.94,
-        "symbol": ""
+        "symbol": "",
+        "flagEmoji": "🌍"
     },
     "XCD": {
         "name": "East Caribbean dollar",
         "value": 2.70,
-        "symbol": ""
+        "symbol": "",
+        "flagEmoji":"➡🏝️"
     },
     "XOF": {
         "name": "West African CFA franc",
         "value": 654.94,
-        "symbol": ""
+        "symbol": "",
+        "flagEmoji":"↙🌍"
     },
     "YER": {
         "name": "Yemeni rial",
         "value": 250.38,
-        "symbol": ""
+        "symbol": "",
+        "flagEmoji": "🇾🇪"
     },
     "ZAR": {
         "name": "South African rand",
         "value": 17.61,
-        "symbol": ""
+        "symbol": "",
+        "flagEmoji":"🇿🇦"
     },
     "ZMW": {
         "name": "Zambian kwacha",
         "value": 15.24,
-        "symbol": "ZK"
+        "symbol": "ZK",
+        "flagEmoji": "🇿🇲"
     }
 }
