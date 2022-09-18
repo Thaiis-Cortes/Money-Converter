@@ -25,7 +25,7 @@ const toResultDiv = document.getElementById('to-result');
 // Função para converter moedas
 const convertValues = () => {
     let value = inputAmountElement.value // Valor a ser convertido
-    value = value.replace(/\D/g, "") // Remover todos os dígitos não-dígitos
+    value = parseInt(value.replace(/\D/g, "")) // Remover todos os dígitos não-dígitos
     const from = selectFromElement.value // Moeda de origem
     const to = selectToElement.value // Moeda de destino
     // converter o valor de uma moeda para outra
@@ -67,7 +67,7 @@ const converter = () => {
     fromName.innerText = from.name
     fromName.classList.add('currancy-name')
     const fromValue = document.createElement('p')
-    fromValue.innerText = `${from.symbol} ${inputAmountElement.value.replace(/\D/g, "")}`
+    fromValue.innerText = `${inputAmountElement.value}`
     fromValue.classList.add('currancy-value')
 
     // Elementos do resultado da moeda de origem
@@ -78,7 +78,7 @@ const converter = () => {
     toName.innerText = to.name
     toName.classList.add('currancy-name')
     const toValue = document.createElement('p')
-    toValue.innerText = `${to.symbol} ${result.toFixed(2).replace(/\D/g, "").replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")}`
+    toValue.innerText = `${to.symbol} ${result.toFixed(0).replace(/\D/g, "").replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")}`
     toValue.classList.add('currancy-value')
 
     // Limpar os elementos
