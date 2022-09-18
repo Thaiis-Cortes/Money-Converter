@@ -8,13 +8,21 @@
 let currencies = fetch('Data/currencyData.json')
 //const cryptoCurrencies = require('./Data/cryptoCurrencyData.json')
 
-const buttonElement = document.getElementById('convert')
-const selectFromElement = document.getElementById('from')
-const selectToElement = document.getElementById('to')
-const inputAmountElement = document.getElementById('amount')
-const fromResultDiv = document.getElementById('from-result')
-const toResultDiv = document.getElementById('to-result')
+// Botão para converter moedas
+const buttonElement = document.getElementById('convert');
+// Select para escolher a moeda de origem
+const selectFromElement = document.getElementById('from');
+// Selecionar a moeda destino
+const selectToElement = document.getElementById('to');
+// Input do valor
+const inputAmountElement = document.getElementById('amount');
+// Div para mostrar o resultado da conversão
+const fromResultDiv = document.getElementById('from-result');
+// Div para mostrar o resultado da conversão
+const toResultDiv = document.getElementById('to-result');
 
+
+// Função para converter moedas
 const convertValues = () => {
     let value = inputAmountElement.value // Valor a ser convertido
     value = value.replace(/\D/g, "") // Remover todos os dígitos não-dígitos
@@ -43,11 +51,57 @@ const mascaraInputMoeda = (value) => {
     */
 }
 
+// função botão de conversão
+const converter = () => {
+    const result = convertValues()
+    
+    // Encontrar as moedas de origem e destino
+    const from = currencies.find(currency => currency.code === selectFromElement.value);
+    const to = currencies.find(currency => currency.code === selectToElement.value);
+    
+    // Elementos da moeda de origem
+    const imagemFrom = document.createElement('div')
+    imagemFrom.style.backgroundImage = `url(https://countryflagsapi.com/png/${from.code.toLowerCase().slice(0, -1)})`
+    imagemFrom.classList.add('currancy-icon')
+    const fromName = document.createElement('p')
+    fromName.innerText = from.name
+    fromName.classList.add('currancy-name')
+    const fromValue = document.createElement('p')
+    fromValue.innerText = `${from.symbol} ${inputAmountElement.value.replace(/\D/g, "")}`
+    fromValue.classList.add('currancy-value')
+
+    // Elementos do resultado da moeda de origem
+    const imagemTo = document.createElement('div')
+    imagemTo.style.backgroundImage = `url(https://countryflagsapi.com/png/${to.code.toLowerCase().slice(0, -1)})`
+    imagemTo.classList.add('currancy-icon')
+    const toName = document.createElement('p')
+    toName.innerText = to.name
+    toName.classList.add('currancy-name')
+    const toValue = document.createElement('p')
+    toValue.innerText = `${to.symbol} ${result.toFixed(2).replace(/\D/g, "").replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")}`
+    toValue.classList.add('currancy-value')
+
+    // Limpar os elementos
+    fromResultDiv.innerHTML = ''
+    toResultDiv.innerHTML = ''
+
+    // Adicionar os elementos nas divs
+    fromResultDiv.appendChild(imagemFrom)
+    fromResultDiv.appendChild(fromName)
+    fromResultDiv.appendChild(fromValue)
+
+    toResultDiv.appendChild(imagemTo)
+    toResultDiv.appendChild(toName)
+    toResultDiv.appendChild(toValue)
+}
+
+// Função inicial
 const init = async () => {
     // carregar os dados das moedas
     currencies = await currencies
     currencies = await currencies.json()
     currencies = Object.keys(currencies).map(key => {
+        // converter o objeto em um array
         return {
             code: key,
             name: currencies[key].name,
@@ -100,48 +154,7 @@ const init = async () => {
     });
 
     // adicionar evento de clique ao botão
-    buttonElement.addEventListener('click', () => {
-        const result = convertValues()
-        
-        // Encontrar as moedas de origem e destino
-        const from = currencies.find(currency => currency.code === selectFromElement.value);
-        const to = currencies.find(currency => currency.code === selectToElement.value);
-        
-        // Elementos da moeda de origem
-        const imagemFrom = document.createElement('div')
-        imagemFrom.style.backgroundImage = `url(https://countryflagsapi.com/png/${from.code.toLowerCase().slice(0, -1)})`
-        imagemFrom.classList.add('currancy-icon')
-        const fromName = document.createElement('p')
-        fromName.innerText = from.name
-        fromName.classList.add('currancy-name')
-        const fromValue = document.createElement('p')
-        fromValue.innerText = `${from.symbol} ${inputAmountElement.value.replace(/\D/g, "")}`
-        fromValue.classList.add('currancy-value')
-
-        // Elementos do resultado da moeda de origem
-        const imagemTo = document.createElement('div')
-        imagemTo.style.backgroundImage = `url(https://countryflagsapi.com/png/${to.code.toLowerCase().slice(0, -1)})`
-        imagemTo.classList.add('currancy-icon')
-        const toName = document.createElement('p')
-        toName.innerText = to.name
-        toName.classList.add('currancy-name')
-        const toValue = document.createElement('p')
-        toValue.innerText = `${to.symbol} ${result.toFixed(2).replace(/\D/g, "").replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.")}`
-        toValue.classList.add('currancy-value')
-
-        // Limpar os elementos
-        fromResultDiv.innerHTML = ''
-        toResultDiv.innerHTML = ''
-
-        // Adicionar os elementos nas divs
-        fromResultDiv.appendChild(imagemFrom)
-        fromResultDiv.appendChild(fromName)
-        fromResultDiv.appendChild(fromValue)
-
-        toResultDiv.appendChild(imagemTo)
-        toResultDiv.appendChild(toName)
-        toResultDiv.appendChild(toValue)
-    });
+    buttonElement.addEventListener('click', converter);
 
     buttonElement.dispatchEvent(new Event('click')); // Disparar o evento de clique
 }
