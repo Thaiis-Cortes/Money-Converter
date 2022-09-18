@@ -118,6 +118,17 @@ section {
     padding: 10px;
 
 }
+.currancy-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;    
+    background-color: rgb(231, 29, 46);
+    display: inline-block;
+    margin: auto 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .currancy-name {
     font-style: normal;
